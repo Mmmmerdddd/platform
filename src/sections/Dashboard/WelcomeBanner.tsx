@@ -98,7 +98,21 @@ const Welcome = styled.div`
     }
   }
 `
-
+  export function WelcomeBanner() {
+  return (
+    <Welcome>
+      <div>
+        <h1>Welcome to Furby Casino👋</h1>
+        <p>
+          A fair, simple and decentralized casino on Solana.
+        </p>
+      </div>
+      <Buttons>
+        <button onClick={() => window.open('https://t.me/furbywifhatportal', '_blank')}>
+          💬 Telegram
+        </button>
+      </Buttons>
+    </Welcome>
 export function WelcomeBanner() {
   return (
     <Welcome>
