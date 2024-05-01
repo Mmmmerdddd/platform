@@ -98,9 +98,10 @@ const Welcome = styled.div`
     }
   }
 `
-  export function WelcomeBanner() {
+
+export function WelcomeBanner() {
   return (
-    <Welcome>
+        <Welcome>
       <div>
         <h1>Welcome to Furby Casino👋</h1>
         <p>
@@ -113,8 +114,6 @@ const Welcome = styled.div`
         </button>
       </Buttons>
     </Welcome>
-export function WelcomeBanner() {
-  return (
     <Welcome>
       <div>
         <h1>Welcome to Furby Casino👋</h1>
