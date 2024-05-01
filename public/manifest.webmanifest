@@ -1,6 +1,6 @@
 {
-	"name": "Gamba Play",
-	"short_name": "Gamba",
+	"name": "Furby Play",
+	"short_name": "Furby",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#000000",
