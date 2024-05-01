@@ -42,7 +42,7 @@ const StyledToast = styled.div`
     0% { opacity: 0; --fade-in: 100%; }
     100% { opacity: 1; --fade-in: 0%; }
   }
-  background: #fffffff0;
+  background: #D757DE;
   color: black;
   border-radius: 10px;
   display: flex;
@@ -61,7 +61,7 @@ const StyledToast = styled.div`
   backdrop-filter: blur(50px);
 
   &:hover {
-    background: #ffffffff;
+    background: #D757DE;
   }
 
   @media (min-width: 800px) {
@@ -79,7 +79,7 @@ const StyledTimer = styled.div<{$ticking: boolean}>`
   width: 100%;
   height: 5px;
   border-radius: 10px;
-  background: #cccccc55;
+  background: #D757DE;
   position: relative;
   overflow: hidden;
   &:after {
@@ -93,7 +93,7 @@ const StyledTimer = styled.div<{$ticking: boolean}>`
     top: 0;
     width: 100%;
     height: 5px;
-    background: #9564ff;
+    background: #D757DE;
   }
 `
 
