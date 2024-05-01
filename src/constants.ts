@@ -61,7 +61,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     usdPrice: 0,
   },
   {
-    mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+    mint: new PublicKey('6brnTLMX5ZRcNdtZHFeDdhyt3UCnifUEdT5TaV5pyv8q'),
     name: 'dogwifhat',
     symbol: 'WIF',
     image: 'https://wormhole.com/token.png',
