@@ -39,8 +39,8 @@ export const POOLS = [
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Fake token:
   lp(FAKE_TOKEN_MINT),
-  // Wormhole:
-  lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  // WIF:
+  lp('FN8UsCNTYytaGW5rosMkqY6zcrvCWV9LpCyMxE7ivnqf'),
 ]
 
 // The default token to be selected
@@ -62,12 +62,12 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   },
   {
     mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
-    name: 'W',
-    symbol: 'Wormhole',
+    name: 'dogwifhat',
+    symbol: 'WIF',
     image: 'https://wormhole.com/token.png',
     baseWager: 1e6,
     decimals: 6,
-    usdPrice: 1,
+    usdPrice: 0,
   },
 ]
 
