@@ -40,7 +40,7 @@ export const POOLS = [
   // Fake token:
   lp(FAKE_TOKEN_MINT),
   // WIF:
-  lp('FN8UsCNTYytaGW5rosMkqY6zcrvCWV9LpCyMxE7ivnqf'),
+  lp('6brnTLMX5ZRcNdtZHFeDdhyt3UCnifUEdT5TaV5pyv8q'),
 ]
 
 // The default token to be selected
