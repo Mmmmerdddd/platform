@@ -34,7 +34,7 @@ const StyledTokenButton = styled.button`
   padding: 10px;
   border-radius: 5px;
   &:hover {
-    background: #ffffff11;
+    background: #D757DE;
   }
 `
 
