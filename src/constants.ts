@@ -67,7 +67,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     image: 'https://wormhole.com/token.png',
     baseWager: 1e6,
     decimals: 6,
-    usdPrice: 0,
+    usdPrice: 1,
   },
 ]
 
