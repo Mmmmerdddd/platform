@@ -87,7 +87,7 @@ export default function Header() {
       <StyledHeader>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <Logo to="/">
-            <img alt="Furby logo" src="/logo.svg" />
+            <img alt="Furby logo" src="/logo1.svg" />
           </Logo>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>
