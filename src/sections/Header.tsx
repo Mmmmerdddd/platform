@@ -11,7 +11,7 @@ const Bonus = styled.button`
   cursor: pointer;
   color: #003c00;
   border-radius: 10px;
-  background: #d757de;
+  background: #03ffa4;
   padding: 2px 10px;
   font-size: 12px;
   text-transform: uppercase;
@@ -90,7 +90,7 @@ export default function Header() {
             <img alt="Furby logo" src="/logo1.svg" />
           </Logo>
         </div>
-        <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>
+        <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative', background: 'blue' }}>
           {pool.jackpotBalance > 0 && (
             <Bonus onClick={() => setJackpotHelp(true)}>
               💰 <TokenValue amount={pool.jackpotBalance} />
