@@ -169,11 +169,11 @@ export function WelcomeBanner() {
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://t.me/furbywifhatportal', '_blank')}>
-          💬 Telegram
+        <button onClick={() => window.open('https://x.com/furbywifhat, '_blank')}>
+          🚀 X.COM
         </button>
-                <button onClick={() => window.open('https://x.com/furbywifhat', '_blank')}>
-         X.COM
+        <button onClick={() => window.open('https://t.me/furbywifhatportal', '_blank')}>
+          💬 TG
         </button>
       </Buttons>
     </Welcome>
