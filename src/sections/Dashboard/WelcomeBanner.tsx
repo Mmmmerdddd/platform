@@ -161,22 +161,6 @@ const Welcome1 = styled.div`
 
 export function WelcomeBanner() {
   return (
-        <Welcome1>
-      <div>
-        <h1>Welcome to Furby Casino👋</h1>
-        <p>
-          A fair, simple and decentralized casino on Solana.
-        </p>
-      </div>
-      <Buttons>
-        <button onClick={() => window.open('https://t.me/furbywifhatportal', '_blank')}>
-          💬 TG
-        </button>
-                <button onClick={() => window.open('https://x.com/furbywifhat', '_blank')}>
-          💬 X.COM
-        </button>
-      </Buttons>
-    </Welcome1>
     <Welcome>
       <div>
         <h1>Welcome to Furby Casino👋</h1>
@@ -187,6 +171,9 @@ export function WelcomeBanner() {
       <Buttons>
         <button onClick={() => window.open('https://t.me/furbywifhatportal', '_blank')}>
           💬 Telegram
+        </button>
+                <button onClick={() => window.open('https://x.com/furbywifhat', '_blank')}>
+         X.COM
         </button>
       </Buttons>
     </Welcome>
