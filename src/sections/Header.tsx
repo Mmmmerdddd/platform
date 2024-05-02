@@ -9,7 +9,7 @@ import { UserButton } from './UserButton'
 const Bonus = styled.button`
   all: unset;
   cursor: pointer;
-  color: #D757DE;
+  color: #003c00;
   border-radius: 10px;
   background: #d757de;
   padding: 2px 10px;
